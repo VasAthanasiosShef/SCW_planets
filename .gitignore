@@ -1,3 +1,4 @@
-*.dat	#ignore all of these files 
-!a.dat	#do not ignore this
-results/
+*.dat		#ignore all of these files 
+!a.dat		#do not ignore this
+#results/	ignores everything in results
+results/data/*.dat #except txt files
